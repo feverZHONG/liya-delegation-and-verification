@@ -24,7 +24,7 @@
 
 ## 工具：搬家守恒复核
 
-`scripts/conservation_check.py` —— **「一字未丢」的唯一证明方式**：原文里每一行（默认 >40 字）必须逐字出现在落点目录的任一 `.md` 里。行数守恒只是粗筛，挡不住「把一句为什么概括掉」这种等长替换。
+`scripts/conservation_check.py` —— **「一字未丢」的唯一证明方式**：原文里每一行（默认 >40 字）必须逐字出现在落点目录的任一 markdown 文件里。行数守恒只是粗筛，挡不住「把一句为什么概括掉」这种等长替换。
 
 ```bash
 python3 scripts/conservation_check.py <新落点目录> <原始备份.md> [--min 40]
